@@ -25,6 +25,7 @@ public class Card {
 
     int cvv;
 
+    @Enumerated(EnumType.STRING)
     CardType cardType;
 
     Date validTill;

@@ -26,10 +26,12 @@ public class Product {
 
     Integer price;
 
+    @Enumerated(EnumType.STRING)
     Category category;
 
     Integer quantity;
 
+    @Enumerated(EnumType.STRING)
     ProductStatus productStatus;
 
     @ManyToOne
