@@ -7,10 +7,10 @@ import com.example.FlipCommerce.model.Product;
 
 public class ItemTransformer {
 
-    public static Item ItemRequestDtoToItem(Product product, Customer customer, int quantiy){
+    public static Item ItemRequestDtoToItem(int quantity){
 
         return Item.builder()
-                .requiredQuantity(quantiy)
+                .requiredQuantity(quantity)
                 .build();
     }
 

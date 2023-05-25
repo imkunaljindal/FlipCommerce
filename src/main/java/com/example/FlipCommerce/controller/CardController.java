@@ -30,4 +30,8 @@ public class CardController {
             return new ResponseEntity(e.getMessage(),HttpStatus.NOT_FOUND);
         }
     }
+
+    // tell me the card type which exists max number of times.
+
+    // tell me the card type which exists min number of times.
 }
